@@ -1,7 +1,6 @@
 .home-container{
     display: flex;
     align-items: center;
-
     margin: 20px auto;
     padding: 10px;
     background-color: #2F2FA2;
@@ -26,4 +25,10 @@
 .container-text p{
     font-size: 20px;
     margin-top: -10px;
+}
+.topic{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+    padding: 100px;
 }

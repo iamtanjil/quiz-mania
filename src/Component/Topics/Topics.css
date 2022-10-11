@@ -1,0 +1,28 @@
+.topics{
+    background-color: #2F2FA2;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.topics img{
+    height: 200px;
+}
+.topics-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.topics-container a{
+    text-decoration: none;
+    background-color: blueviolet;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 8px;
+    width: 100px;
+}
+.topics-container a:hover{
+    background-color: rgb(168, 112, 221);
+}
