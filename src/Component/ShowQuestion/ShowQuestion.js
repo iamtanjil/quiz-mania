@@ -1,3 +1,5 @@
+import { faEye } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './ShowQuestion.css';
 
@@ -9,6 +11,7 @@ const ShowQuestion = ({question}) => {
         <div>
             <div className='quiestion-container'>
                 <div className="view">
+                    <FontAwesomeIcon icon={faEye}></FontAwesomeIcon>
                 </div>
             <h4>This is quiestion</h4>
             <div className='ans-container'>

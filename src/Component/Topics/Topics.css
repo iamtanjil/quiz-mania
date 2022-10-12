@@ -19,10 +19,10 @@
     background-color: blueviolet;
     color: white;
     font-size: 20px;
-    border-radius: 10px;
+    border-radius: 8px;
     padding: 8px;
     width: 100px;
 }
 .topics-container a:hover{
-    background-color: rgb(168, 112, 221);
+    background-color: #F64C72;
 }

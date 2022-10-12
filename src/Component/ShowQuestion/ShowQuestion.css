@@ -21,10 +21,18 @@
     padding: 15px;
     border-radius: 10px;
     font-size: 20px;
+    cursor: pointer;
 }
 .ans-btn:hover{
     background-color: #F64C72;
+}
+.view{
+    display: flex;
+    justify-content: end;
     cursor: pointer;
+}
+.view:hover{
+    color: #F64C72;
 }
 @media only screen and (max-width: 600px){
     .quiestion-container{
