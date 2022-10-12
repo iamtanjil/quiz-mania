@@ -32,3 +32,19 @@
     margin: 0 auto;
     padding: 100px;
 }
+@media only screen and (max-width: 600px) {
+    .home-container{
+        flex-direction: column;
+        height: 700px;
+    }
+    .home-container img{
+        height: 200px;
+    }
+    .container-text{
+        margin-top: 30px;
+        width: 250px;
+    }
+    .topic{
+        grid-template-columns: repeat(1, 1fr);
+    }
+  }

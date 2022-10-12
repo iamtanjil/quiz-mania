@@ -9,7 +9,7 @@ const Statistic = () => {
     return (
         <div className='statistic'>
             <BarChart
-          width={600}
+          width={500}
           height={400}
           data={data}
           margin={{

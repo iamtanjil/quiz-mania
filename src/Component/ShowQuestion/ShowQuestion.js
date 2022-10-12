@@ -1,5 +1,6 @@
 import React from 'react';
 import './ShowQuestion.css';
+
 const ShowQuestion = ({question}) => {
     const createMarkup = (html) => {
         return {__html: {html}};
@@ -8,7 +9,6 @@ const ShowQuestion = ({question}) => {
         <div>
             <div className='quiestion-container'>
                 <div className="view">
-                    
                 </div>
             <h4>This is quiestion</h4>
             <div className='ans-container'>
