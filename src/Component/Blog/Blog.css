@@ -1,0 +1,8 @@
+.blog-container{
+    background-color: #2F2FA2;
+    margin: 10px auto ;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    width: 700px;
+}

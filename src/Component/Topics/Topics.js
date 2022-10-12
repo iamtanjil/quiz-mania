@@ -9,7 +9,7 @@ const Topics = ({topics}) => {
                 <img src={topics.logo} alt="" />
             <div className="topics-container">
                 <h3>{topics.name}</h3>
-                <Link to='/'>Start Quiz</Link>
+                <Link to={`/topics/${topics.id}`}>Start Quiz</Link>
             </div>
             </div>
         </div>

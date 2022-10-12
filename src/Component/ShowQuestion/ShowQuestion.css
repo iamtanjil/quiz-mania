@@ -1,0 +1,28 @@
+.quiestion-container{
+    background-color: #2F2FA2;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+    color: white;
+}
+.quiestion-container h4{
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.ans-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+.ans-btn{
+    background-color: #242582;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.ans-btn:hover{
+    background-color: #F64C72;
+    cursor: pointer;
+}
